@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congreso Nacional de Neonatología</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+
+    </div>
+    <section id="cont-comercial">
+        <div class="cont-comercial-items">
+            <a href="comercial-itemB.html"></a>
+            <a href="comercial-itemI.html"></a>
+            <a href="comercial-itemH.html"></a>
+            <a href="comercial-itemF.html"></a>
+            <a href="comercial-itemD.html"></a>
+            <a href="comercial-itemE.html"></a>
+            <a href="comercial-itemC.html"></a>
+            <a href="comercial-itemA.html"></a>
+            <a href="comercial-itemJ.html"></a>
+            <a href="comercial-itemG.html"></a>
+            <a href="comercial-itemK.html"></a>
+            <a href="comercial-itemL.html"></a>
+        </div>
+
+        <div class="cont-menu-bottom">
+            <a class="menu-item" href="lobby.html"><img src="media/icon-lobby.png" alt=""> <span>Lobby</span> </a>
+            <a class="menu-item" href="auditorio.html"><img src="media/icon-auditorio.png" alt=""><span>Auditorio</span></a>
+            <a class="menu-item" href=""><img src="media/icon-salir.png" alt=""><span>Salir</span></a>
+        </div>
+    </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script>
+        var v = document.getElementById('sample-video');
+        v.play();
+        v.addEventListener('ended', function() {
+            console.log('ended');
+            location.href = "lobby.html";
+        }, false);
+    </script>
+
+
+    <script>
+        $(document).ready(function() {
+
+            setTimeout(function() {
+                $('body').addClass('loaded');
+                $('h1').css('color', '#222222');
+            }, 250);
+
+        });
+    </script>
+
+
+</body>
+
+</html>
